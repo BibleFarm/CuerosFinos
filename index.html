@@ -2411,5 +2411,29 @@ $(".menu_modal").show("slow");
 ////////////////////////////////////////////////////
 // END simple menu
 ////////////////////////////////////////////////////
+////////////////////////////////////////////////////
+// BEGIN click anywhere to get out of the menu
+////////////////////////////////////////////////////
+$(".opacity_cover, .wrap_gofundme_modal_bar").on("click", function() {
+  setTimeout(function() {
+  if($('.menu_modal').is(':visible'))
+{
+  $(".opacity_cover").hide();
+  $(".menu_modal").hide("slow");
+}
+}, 100);
+    /*
+setTimeout(function() {
+if(!$('.menu_modal').is(':visible'))
+{
+$(".opacity_cover").show();
+$(".menu_modal").show("slow");
+}
+}, 100);
+    */
+});
+////////////////////////////////////////////////////
+// END click anywhere to get out of the menu
+////////////////////////////////////////////////////
 </script>
 </body></html>
