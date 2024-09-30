@@ -2028,3 +2028,7 @@ background: none;
   font-size: 0px;
 }
 img.m {cursor: pointer;}
+
+.fit-picture {
+  width: 296px;
+}
