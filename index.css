@@ -2047,9 +2047,11 @@ img.m {cursor: pointer;}
 }
 #site_title{
   color: #d5ad6d;
-  font-family: "SS-Rebeca", sans-serif;
-  font-size: 28px;
-  font-weight: 100;
+      font-family: "SS-Rebeca", sans-serif;
+      font-size: 30px;
+      font-weight: 100;
+      padding-top: 2px;
+      line-height: 50px;
 }
 #menu {
   padding-top: 10px;
