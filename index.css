@@ -14,6 +14,14 @@
   font-family: "RothenburgDecorative-X3JY9";
   src: url(RothenburgDecorative-X3JY9.ttf) format("truetype");
 }
+@font-face {
+  font-family: "SS Rebeca";
+  src: url(SS Rebeca.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Glamour";
+  src: url(Glamour.ttf) format("truetype");
+}
 /*
 @font-face {
   font-family: "NeogreyMedium";
@@ -2039,5 +2047,6 @@ img.m {cursor: pointer;}
 }
 #site_title{
   color: #d5ad6d;
-  font-family: "RothenburgDecorative-X3JY9", serif;
+  font-family: "SS Rebeca", serif;
+  font-size: 27px;
 }
